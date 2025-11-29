@@ -33,7 +33,7 @@ resource "aws_s3_bucket_public_access_block" "mybucket-website" {
 
 }
 
-- BUCKET POLICY
+- #BUCKET POLICY
 <img width="1919" height="890" alt="Image" src="https://github.com/user-attachments/assets/6702151a-cff6-43ab-9c6c-2c20a9e1e4d4" />
 
 
