@@ -22,8 +22,11 @@ provider "aws" {
 }
 ```
 
+## Creation of the Bucket:
+
 <img width="1608" height="841" alt="Image" src="https://github.com/user-attachments/assets/27769fa0-f3a7-4008-a1a0-d18a4f415f3c" />
 
+## Bucket Resourse - Terraform
 ```
 resource "random_id" "randomid" {
     byte_length = 8
@@ -72,6 +75,13 @@ resource "aws_s3_bucket_policy" "mybucket-website" {
 ```
 
 
+
+
+# **index.html* and **style.css* uploads through Terraform
+<img width="1919" height="851" alt="Image" src="https://github.com/user-attachments/assets/1be0e799-e2a2-4bd4-b339-c3c5032297ac" />
+
+# Through: Terraform 
+```
 resource "aws_s3_bucket_website_configuration" "mywebsite" {
   bucket = aws_s3_bucket.mybucket-website.id
   index_document {
@@ -79,11 +89,6 @@ resource "aws_s3_bucket_website_configuration" "mywebsite" {
   }
 }
 
-# **index.html* and **style.css* uploads through Terraform
-<img width="1919" height="851" alt="Image" src="https://github.com/user-attachments/assets/1be0e799-e2a2-4bd4-b339-c3c5032297ac" />
-
-# Through: Terraform 
-```
 resource "aws_s3_object" "index_html" {
   bucket       = aws_s3_bucket.mybucket-website.bucket
   source       = "./index.html"
