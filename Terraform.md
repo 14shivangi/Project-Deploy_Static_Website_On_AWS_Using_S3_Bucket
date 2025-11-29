@@ -17,6 +17,7 @@ provider "aws" {
 }
 ```
 
+<img width="1608" height="841" alt="Image" src="https://github.com/user-attachments/assets/27769fa0-f3a7-4008-a1a0-d18a4f415f3c" />
 
 ```
 resource "random_id" "randomid" {
