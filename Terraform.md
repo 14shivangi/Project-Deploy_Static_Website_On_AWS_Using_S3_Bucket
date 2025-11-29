@@ -1,3 +1,4 @@
+# Terraform Providers Section
 ```
 terraform {
   required_providers {
