@@ -103,7 +103,7 @@ resource "aws_s3_object" "styles_css" {
   content_type = "text/css"
 }
 ```
-
+<img width="929" height="196" alt="Image" src="https://github.com/user-attachments/assets/e7f15ce9-cd96-414d-b337-8c2d22d3dbe3" />
 ```
 output "WebsiteLink" {
   value = aws_s3_bucket_website_configuration.mywebsite.website_endpoint
