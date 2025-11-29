@@ -67,6 +67,10 @@ resource "aws_s3_bucket_website_configuration" "mywebsite" {
     suffix = "index.html"
   }
 }
+
+# **index.html* and **style.css* uploads through Terraform
+<img width="1919" height="851" alt="Image" src="https://github.com/user-attachments/assets/1be0e799-e2a2-4bd4-b339-c3c5032297ac" />
+
 ```
 resource "aws_s3_object" "index_html" {
   bucket       = aws_s3_bucket.mybucket-website.bucket
