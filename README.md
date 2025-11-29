@@ -44,4 +44,4 @@ terraform apply
 ```
 terraform destroy
 ```
-
+<img width="700" height="500" alt="Image" src="https://github.com/user-attachments/assets/41d55fa0-0536-4045-9c68-9cd0a703eb05" />
