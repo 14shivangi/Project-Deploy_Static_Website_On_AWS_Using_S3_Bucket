@@ -1,4 +1,4 @@
-# **SETUP OF TERRAFORM*
+# *SETUP OF TERRAFORM*
 
 
 ## Terraform Providers Section:
