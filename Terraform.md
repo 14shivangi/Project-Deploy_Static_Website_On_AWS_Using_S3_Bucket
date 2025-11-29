@@ -1,3 +1,4 @@
+```
 terraform {
   required_providers {
     aws = {
@@ -14,7 +15,7 @@ terraform {
 provider "aws" {
   region = "ap-south-1"
 }
-
+```
 resource "random_id" "randomid" {
     byte_length = 8
 }
