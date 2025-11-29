@@ -27,28 +27,19 @@ Make sure you have:
 - Terraform installed (v1.0+)
 - An AWS account with S3 permissions
 ---
-# *Configuration: 
-
-<img width="950" height="700" alt="Image" src="https://github.com/user-attachments/assets/8c0a2cb4-c2c1-45eb-aa71-93b3381fa554" />
-
 
 ##  How to Use
 - Initialize Terraform
 ```
 terraform init
 ```
-
-
 ```
 terraform validate
 ```
-
-
-
 ```
 terraform apply
 ```
-<img width="950" height="700" alt="Image" src="https://github.com/user-attachments/assets/9fbbe295-ff58-485f-be6a-907ad22d20d3" />
+<img width="790" height="1040" alt="Image" src="https://github.com/user-attachments/assets/a9b44129-9fa6-4cc1-a286-885323acde32" />
 
 ```
 terraform destroy
