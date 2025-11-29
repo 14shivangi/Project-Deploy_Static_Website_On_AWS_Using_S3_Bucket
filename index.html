@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login | My Cool App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Connect CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-gradient"></div>
+  <div class="bg-blur-circle circle-1"></div>
+  <div class="bg-blur-circle circle-2"></div>
+
+  <main class="page-wrapper">
+    <section class="login-card">
+      <div class="card-header">
+        <h1>Welcome back 👋</h1>
+        <p class="subtitle">Login to continue to your dashboard</p>
+      </div>
+
+      <form class="login-form">
+        <div class="input-group">
+          <label for="email">Email address</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="you@example.com"
+            required
+          >
+        </div>
+
+        <div class="input-group">
+          <div class="label-row">
+            <label for="password">Password</label>
+            <a href="#forgot-modal" class="forgot-link">Forgot password?</a>
+          </div>
+          <input
+            type="password"
+            id="password"
+            placeholder="••••••••"
+            required
+          >
+        </div>
+
+        <div class="options-row">
+          <label class="checkbox-container">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            <span>Remember me</span>
+          </label>
+        </div>
+
+        <button type="submit" class="btn-primary">
+          Login
+        </button>
+
+        <p class="hint-text">
+          New here?
+          <a href="#" class="link-inline">Create an account</a>
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <!-- Forgot Password Popup (CSS-only modal) -->
+  <div id="forgot-modal" class="modal">
+    <div class="modal-content">
+      <a href="#" class="modal-close" aria-label="Close">&times;</a>
+      <h2>Reset your password</h2>
+      <p class="modal-text">
+        Enter your registered email and we’ll send you a reset link.
+      </p>
+
+      <form class="forgot-form">
+        <div class="input-group">
+          <label for="forgot-email">Email address</label>
+          <input
+            type="email"
+            id="forgot-email"
+            placeholder="you@example.com"
+            required
+          >
+        </div>
+
+        <button type="submit" class="btn-primary full-width">
+          Send reset link
+        </button>
+
+        <p class="modal-hint">
+          Remembered it?
+          <a href="#" class="link-inline">Back to login</a>
+        </p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
