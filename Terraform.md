@@ -24,7 +24,7 @@ provider "aws" {
 
 ## Creation of the Bucket:
 
-<img width="1608" height="841" alt="Image" src="https://github.com/user-attachments/assets/27769fa0-f3a7-4008-a1a0-d18a4f415f3c" />
+<img width="929" height="841" alt="Image" src="https://github.com/user-attachments/assets/27769fa0-f3a7-4008-a1a0-d18a4f415f3c" />
 
 ## Bucket Resourse - Terraform
 ```
@@ -50,7 +50,7 @@ resource "aws_s3_bucket_public_access_block" "mybucket-website" {
 
 # BUCKET POLICY - Console
 
-<img width="1919" height="890" alt="Image" src="https://github.com/user-attachments/assets/6702151a-cff6-43ab-9c6c-2c20a9e1e4d4" />
+<img width="929" height="890" alt="Image" src="https://github.com/user-attachments/assets/6702151a-cff6-43ab-9c6c-2c20a9e1e4d4" />
 
 
 # BUCKET POLICY - Terraform
@@ -78,7 +78,7 @@ resource "aws_s3_bucket_policy" "mybucket-website" {
 
 
 # **index.html* and **style.css* uploads through Terraform
-<img width="1919" height="851" alt="Image" src="https://github.com/user-attachments/assets/1be0e799-e2a2-4bd4-b339-c3c5032297ac" />
+<img width="929" height="851" alt="Image" src="https://github.com/user-attachments/assets/1be0e799-e2a2-4bd4-b339-c3c5032297ac" />
 
 # Through: Terraform 
 ```
