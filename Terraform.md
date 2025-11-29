@@ -1,4 +1,8 @@
-# Terraform Providers Section
+# **SETUP OF TERRAFORM*
+
+
+## Terraform Providers Section:
+
 ```
 terraform {
   required_providers {
