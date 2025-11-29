@@ -33,25 +33,7 @@ resource "aws_s3_bucket_public_access_block" "mybucket-website" {
 
 }
 
-resource "aws_s3_bucket_policy" "mybucket-website" {
-  bucket = aws_s3_bucket.mybucket-website.id
-  policy = jsonencode(
-    {
-            Version = "2012-10-17",
-            Statement =[
-                {
-                Sid = "PublicReadGetObject",
-                Effect = "Allow",
-                Principal = "*",
-                Action = "s3:GetObject",
-                Resource = "${aws_s3_bucket.mybucket-website.arn}/*"
-                }
-            ]
-        }
-    )
-}
-
-
+- BUCKET POLICY
 <img width="1919" height="890" alt="Image" src="https://github.com/user-attachments/assets/6702151a-cff6-43ab-9c6c-2c20a9e1e4d4" />
 
 
