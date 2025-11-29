@@ -12,7 +12,7 @@ It provisions:
 - Uploads `index.html` and `style.css`
 - Outputs the live website endpoint
 
-## 📁 Project Structure
+##  Project Structure
 - main.tf
 - index.html
 - style.css
