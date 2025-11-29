@@ -67,7 +67,7 @@ resource "aws_s3_bucket_website_configuration" "mywebsite" {
     suffix = "index.html"
   }
 }
-
+```
 resource "aws_s3_object" "index_html" {
   bucket       = aws_s3_bucket.mybucket-website.bucket
   source       = "./index.html"
@@ -81,7 +81,10 @@ resource "aws_s3_object" "styles_css" {
   key          = "style.css"
   content_type = "text/css"
 }
+```
 
+```
 output "WebsiteLink" {
   value = aws_s3_bucket_website_configuration.mywebsite.website_endpoint
 }
+```
