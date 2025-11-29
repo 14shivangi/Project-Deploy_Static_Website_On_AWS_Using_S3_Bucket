@@ -45,3 +45,9 @@ terraform apply
 terraform destroy
 ```
 <img width="700" height="500" alt="Image" src="https://github.com/user-attachments/assets/41d55fa0-0536-4045-9c68-9cd0a703eb05" />
+
+# Output:
+<img width="700" height="196" alt="Image" src="https://github.com/user-attachments/assets/f801ebe0-02a6-498e-be24-8b08e6142b35" />
+
+# Copy the link and search in it your *WEBSITE IS HOSTED!*
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/2f45a54a-9901-4af6-a54c-c848399ec6c3" />
