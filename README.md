@@ -39,7 +39,7 @@ terraform validate
 ```
 terraform apply
 ```
-<img width="790" height="1040" alt="Image" src="https://github.com/user-attachments/assets/a9b44129-9fa6-4cc1-a286-885323acde32" />
+<img width="700" height="1040" alt="Image" src="https://github.com/user-attachments/assets/a9b44129-9fa6-4cc1-a286-885323acde32" />
 
 ```
 terraform destroy
