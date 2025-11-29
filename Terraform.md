@@ -15,7 +15,7 @@ terraform {
 provider "aws" {
   region = "ap-south-1"
 }
-```
+
 resource "random_id" "randomid" {
     byte_length = 8
 }
@@ -23,7 +23,7 @@ resource "random_id" "randomid" {
 resource "aws_s3_bucket" "mybucket-website" {
   bucket = "mybucket-website-${random_id.randomid.hex}"
 }
-
+```
 resource "aws_s3_bucket_public_access_block" "mybucket-website" {
   bucket = aws_s3_bucket.mybucket-website.id
 
