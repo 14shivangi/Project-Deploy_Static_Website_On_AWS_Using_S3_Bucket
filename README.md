@@ -1,4 +1,4 @@
-#  *🚀Project-Deploy Static Website On AWS S3 Bucket Using TerraForm*
+#  *🚀Project: Deploy Static Website On AWS S3 Bucket Using TerraForm*
 
 - This project demonstrates how to deploy a fully static website (HTML + CSS) on an AWS S3 Bucket using Terraform.  
 - It includes bucket creation, public access configuration, website hosting setup, and automatic upload of site files.
